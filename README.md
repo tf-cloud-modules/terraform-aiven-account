@@ -2,6 +2,15 @@
 
 Terraform module which creates Aiven Account resources.
 
+## Usage
+
+```hcl
+module "account" {
+  source  = "tf-cloud-modules/account/aiven"
+  name    = "test23294"
+}
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
