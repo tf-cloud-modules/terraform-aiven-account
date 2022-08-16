@@ -3,7 +3,7 @@
 Configuration in this directory creates an Aiven Account with following features:
 
 - Aiven Account
-
+- Aiven Account Team
 
 ## Usage
 
@@ -31,6 +31,7 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_account"></a> [account](#module\_account) | ../.. | n/a |
+| <a name="module_team"></a> [team](#module\_team) | ../../modules/team | n/a |
 
 ## Resources
 
