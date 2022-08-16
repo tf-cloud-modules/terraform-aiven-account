@@ -51,6 +51,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_account_id"></a> [account\_id](#output\_account\_id) | Account id. |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource. |
 | <a name="output_invited_by_user_email"></a> [invited\_by\_user\_email](#output\_invited\_by\_user\_email) | The email address that invited this user. |
 | <a name="output_team_id"></a> [team\_id](#output\_team\_id) | The auto-generated unique account team id. |

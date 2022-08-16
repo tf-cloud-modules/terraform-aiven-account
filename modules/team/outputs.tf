@@ -7,3 +7,8 @@ output "team_id" {
   description = "The auto-generated unique account team id."
   value       = try(aiven_account_team.this[0].team_id, "")
 }
+
+output "account_id" {
+  description = "Account id."
+  value       = try(aiven_account_team.this[0].account_id, "")
+}

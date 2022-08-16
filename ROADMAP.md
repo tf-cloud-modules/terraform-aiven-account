@@ -9,5 +9,5 @@ This document describes the current status of this project.
 | ❌ | [Add authentication module]() ||
 | ✔ | [Add team module]() ||
 | ✔ | [Add team member module]() ||
-| ❌ | [Add team project module]() ||
+| ✔ | [Add team project module]() ||
 | ✔ | [Add examples]() ||

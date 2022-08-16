@@ -1,14 +1,16 @@
-# Aiven Account Team Terraform module
+# Aiven Account Team Project Terraform module
 
-Terraform module which creates Aiven Account Team resources
+Terraform module which creates Aiven Account Team Project resources
 
 ## Usage
 
 ```hcl
-module "team" {
-  source     = "tf-cloud-modules/account/aiven//modules/team"
-  name       = "test"
-  account_id = "XXXXXXX"
+module "team_project" {
+  source       = "tf-cloud-modules/account/aiven//modules/team_project"
+  account_id   = "XXXXXXX"
+  team_id      = "XXXXXXX"
+  project_name = "test"
+  team_type    = "admin"
 }
 ```
 
@@ -34,7 +36,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [aiven_account_team.this](https://registry.terraform.io/providers/aiven/aiven/latest/docs/resources/account_team) | resource |
+| [aiven_account_team_project.this](https://registry.terraform.io/providers/aiven/aiven/latest/docs/resources/account_team_project) | resource |
 
 ## Inputs
 
@@ -42,7 +44,9 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_account_id"></a> [account\_id](#input\_account\_id) | The unique account id. | `string` | n/a | yes |
 | <a name="input_create"></a> [create](#input\_create) | Controls if resources should be created. | `bool` | `true` | no |
-| <a name="input_name"></a> [name](#input\_name) | Account name. | `string` | n/a | yes |
+| <a name="input_project_name"></a> [project\_name](#input\_project\_name) | The name of an already existing project. | `string` | n/a | yes |
+| <a name="input_team_id"></a> [team\_id](#input\_team\_id) | An account team id This property cannot be changed, doing so forces recreation of the resource. | `string` | n/a | yes |
+| <a name="input_team_type"></a> [team\_type](#input\_team\_type) | The Account team project type The possible values are admin, developer, operator and read\_only. | `string` | n/a | yes |
 
 ## Outputs
 
