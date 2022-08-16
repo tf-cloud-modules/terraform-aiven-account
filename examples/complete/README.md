@@ -32,6 +32,7 @@ No providers.
 |------|--------|---------|
 | <a name="module_account"></a> [account](#module\_account) | ../.. | n/a |
 | <a name="module_team"></a> [team](#module\_team) | ../../modules/team | n/a |
+| <a name="module_team_member"></a> [team\_member](#module\_team\_member) | ../../modules/team_member | n/a |
 
 ## Resources
 
