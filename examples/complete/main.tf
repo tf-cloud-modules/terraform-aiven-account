@@ -15,3 +15,17 @@ module "team_member" {
   team_id    = module.team.team_id
   user_email = "user@example.com"
 }
+
+module "project" {
+  source     = "tf-cloud-modules/project/aiven"
+  account_id = module.account.account_id
+  project    = "test23294"
+}
+
+module "team_project" {
+  source       = "../../modules/team_project"
+  account_id   = module.account.account_id
+  team_id      = module.team.team_id
+  project_name = module.project.project
+  team_type    = "admin"
+}
