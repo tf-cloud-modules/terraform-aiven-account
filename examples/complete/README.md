@@ -32,7 +32,7 @@ No providers.
 ## Modules
 
 | Name | Source | Version |
-|------|--------|---------|
+| ---- | ------ | ------- |
 | <a name="module_account"></a> [account](#module\_account) | ../.. | n/a |
 | <a name="module_project"></a> [project](#module\_project) | tf-cloud-modules/project/aiven | 2.0.0 |
 | <a name="module_team"></a> [team](#module\_team) | ../../modules/team | n/a |
