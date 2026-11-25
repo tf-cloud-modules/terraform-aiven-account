@@ -20,7 +20,7 @@ module "project" {
   source     = "tf-cloud-modules/project/aiven"
   account_id = module.account.account_id
   project    = "test23294"
-  version    = "2.0.0"
+  version    = "2.0.1"
 }
 
 module "team_project" {
