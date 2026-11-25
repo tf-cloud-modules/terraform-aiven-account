@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.2] - 2026-11-25
+
+### Deprecated
+- This module is deprecated because it manages Aiven Account and Team resources that will be removed in aiven/aiven provider v5.
+
 ## [2.0.1] - 2026-11-25
 
 ### Added
@@ -58,7 +63,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release.
 
-[Unreleased]: https://github.com/tf-cloud-modules/terraform-aiven-account/compare/2.0.1...HEAD
+[Unreleased]: https://github.com/tf-cloud-modules/terraform-aiven-account/compare/2.0.2...HEAD
+[2.0.2]: https://github.com/tf-cloud-modules/terraform-aiven-account/compare/2.0.1...2.0.2
 [2.0.1]: https://github.com/tf-cloud-modules/terraform-aiven-account/compare/2.0.0...2.0.1
 [2.0.0]: https://github.com/tf-cloud-modules/terraform-aiven-account/compare/1.0.1...2.0.0
 [1.0.1]: https://github.com/tf-cloud-modules/terraform-aiven-account/compare/1.0.0...1.0.1
