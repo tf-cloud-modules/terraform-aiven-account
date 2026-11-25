@@ -4,6 +4,9 @@
 
 Terraform module which creates Aiven Account resources.
 
+> [!WARNING]
+> **DEPRECATED:** This module manages Aiven account and team resources that are deprecated and will be removed in `aiven/aiven` provider v5. Use Aiven organizations, organization user groups, and organization projects instead. See the [Aiven migration guide](https://aiven.io/docs/tools/terraform/howto/migrate-from-teams-to-groups).
+
 ## Usage
 
 ```hcl

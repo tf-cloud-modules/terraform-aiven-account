@@ -4,6 +4,9 @@
 
 Terraform-модуль для создания ресурсов Aiven Account.
 
+> [!WARNING]
+> **DEPRECATED:** Модуль управляет устаревшими Aiven Account и Team ресурсами; они будут удалены из провайдера `aiven/aiven` v5. Используйте organization, user groups и organization projects. См. [руководство Aiven по миграции](https://aiven.io/docs/tools/terraform/howto/migrate-from-teams-to-groups).
+
 ## Usage
 
 ```hcl
