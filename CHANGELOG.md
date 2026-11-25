@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Raise aiven/aiven provider constraint to `>= 4.66.0, < 5.0.0`.
+- Pin `tf-cloud-modules/project/aiven` to `2.0.1` in `examples/complete` — 2.0.0 configures `available_credits`, which is read-only since aiven/aiven v4.59.0 and breaks validation.
 
 ### Deprecated
 - All managed resources (`aiven_account`, `aiven_account_team`, `aiven_account_team_member`, `aiven_account_team_project`) are deprecated upstream and will be removed in aiven/aiven v5.0.0. Migrate to `aiven_organization` and organization groups (see the [Aiven migration guide](https://aiven.io/docs/tools/terraform/howto/migrate-from-teams-to-groups)).
